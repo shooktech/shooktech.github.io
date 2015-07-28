@@ -1,1 +1,1 @@
-read me 
+shooktech.github.io
