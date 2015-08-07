@@ -1,0 +1,91 @@
+{
+  "shims": {
+    "/javascripts/app/main.js": {
+      "bootstrap": {
+        "deps": [
+          "jquery"
+        ],
+        "exports": "jQuery"
+      }
+    }
+  },
+  "deps": {
+    "/javascripts/app/main.js": [
+      "require",
+      "durandal/app",
+      "durandal/viewLocator",
+      "durandal/system",
+      "bootstrap"
+    ],
+    "/javascripts/app/viewmodels/about.js": [
+      "require",
+      "plugins/router",
+      "durandal/app",
+      "./vm_base"
+    ],
+    "/javascripts/app/viewmodels/careers.js": [
+      "require",
+      "plugins/router",
+      "durandal/app",
+      "./vm_base"
+    ],
+    "/javascripts/app/viewmodels/home.js": [
+      "require",
+      "durandal/app",
+      "knockout",
+      "plugins/router",
+      "./vm_base"
+    ],
+    "/javascripts/app/viewmodels/shell.js": [
+      "require",
+      "plugins/router",
+      "durandal/app",
+      "./vm_base"
+    ],
+    "/javascripts/app/viewmodels/vm_base.js": [
+      "require",
+      "uberproto"
+    ]
+  },
+  "aliases": {
+    "/javascripts/app/main.js": {
+      "text": "../vendor/requirejs-text/text",
+      "knockout": "../vendor/knockout.js/knockout-3.1.0",
+      "jquery": "../vendor/jquery/jquery",
+      "bootstrap": "../vendor/bootstrap/bootstrap",
+      "durandal": "../vendor/durandal",
+      "plugins": "../vendor/durandal/plugins",
+      "transitions": "../vendor/durandal/transitions",
+      "uberproto": "../vendor/uberproto/proto"
+    }
+  },
+  "mappings": {
+    "/javascripts/app/main.js": null
+  },
+  "packages": {
+    "/javascripts/app/main.js": null
+  },
+  "originalConfig": {
+    "shim": {
+      "bootstrap": {
+        "deps": [
+          "jquery"
+        ],
+        "exports": "jQuery"
+      }
+    },
+    "paths": {
+      "text": "../vendor/requirejs-text/text",
+      "knockout": "../vendor/knockout.js/knockout-3.1.0",
+      "jquery": "../vendor/jquery/jquery",
+      "bootstrap": "../vendor/bootstrap/bootstrap",
+      "durandal": "../vendor/durandal",
+      "plugins": "../vendor/durandal/plugins",
+      "transitions": "../vendor/durandal/transitions",
+      "uberproto": "../vendor/uberproto/proto"
+    }
+  },
+  "requireFiles": [
+    "/javascripts/app/main.js"
+  ]
+}
