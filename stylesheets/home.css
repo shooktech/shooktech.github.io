@@ -1,0 +1,5 @@
+#banner-statement * {font-weight:900; color:white;}
+
+#banner-statement {background-color: red;}
+#footer {background-color: red; margin: 0 0;}
+#footer * {color:white;}
