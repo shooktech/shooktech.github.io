@@ -1,0 +1,82 @@
+﻿<div id="carousel-example-generic" class="carousel slide col-xs-12" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators" data-bind="foreach: carouselItems">
+      <li data-bind="attr: {'data-target': '#carousel-example-generic',
+                            'data-slide-to': $index}">
+      </li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <!-- ko foreach: carouselItems -->
+      <div class="item" data-bind="css: { active: $index() == 0 }">
+        <img data-bind="attr {src: img}" alt="...description">
+        <div class="carousel-caption" data-bind="text: caption"></div>
+      </div>
+      <!-- /ko -->
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<section class="row" id="banner-statement">
+  <div class="col-md-8 col-md-offset-2">
+    <h1 class="text-right">
+      DETROIT quality service
+    </h1>
+    <h2 class="text-right">
+      Anywhere in the WORLD*
+    </h2>
+    <h3 class="text-right">
+      Based in the BAY AREA
+    </h3>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-4 facade-mission text-center">
+      <h3 class=''>What we do</h3>
+      <i class="fa fa-shopping-cart fa-4x"></i>
+      <p>We purvey quality products in tech, fashion, and niche collectibles</p>
+    </div>
+    <div class="col-md-4 facade-mission text-center">
+      <h3 class=''>Detroit Quality</h3>
+      <i class="fa fa-thumbs-up fa-4x"></i>
+      <p>Established in Detroit, we know quality when it comes to products and service</p>
+    </div>
+    <div class="col-md-4 facade-mission text-center">
+      <h3 class="">Bay Area Friendliness</h3>
+      <i class="fa fa-heart fa-4x"></i>
+      <p>Bringing you politically correct service and opinions which have 
+        diversity and sustainability in mind</p>
+    </div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-4">
+      Image here
+    </div>
+
+    <div class="col-md-8">
+      <h2 class="header-primary">People love us</h2>
+      <p class="statement">
+        With a proven track record, people are satisifed with our service. Just 
+        read our customer feedback. Others were happy with our speedy and friendly 
+        service and we are sure that you will love us, too!
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer data-bind="compose: 'footer.html'"></footer>
