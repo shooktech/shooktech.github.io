@@ -1,0 +1,8 @@
+
+@media (min-width: 992px) { 
+	#footer #contact {margin-top: 5rem;	}
+	#footer #site-map {margin-top: 5rem;}
+}
+
+#footer #site-map {list-style: none;}
+#footer #site-map li {display:inline-block; margin-right: 2rem;}

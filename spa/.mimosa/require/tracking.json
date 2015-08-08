@@ -29,6 +29,12 @@
       "durandal/app",
       "./vm_base"
     ],
+    "/javascripts/app/viewmodels/footer.js": [
+      "require",
+      "plugins/router",
+      "durandal/app",
+      "./vm_base"
+    ],
     "/javascripts/app/viewmodels/home.js": [
       "require",
       "durandal/app",

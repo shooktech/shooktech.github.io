@@ -1,8 +1,8 @@
 <section class="row" id="footer">
-        <img class="col-xs-12 col-md-2" src="http://i.imgur.com/vEp37jV.png" />
+        <img class="col-xs-12 col-sm-2" src="./images/white.png" />
 
-        <div class="col-md-8">
-            <div class="col-md-3">
+        <div class="col-sm-8">
+            <div class="col-md-3" id="contact">
                 <a href="mailto:info@detroitpacking.co">
                     <i class="fa fa-envelope"></i> info@detroitpacking.co
                 </a>
@@ -10,5 +10,11 @@
                     <br><i class="fa fa-phone"></i> 000.000.0000
                 </a>
             </div>
+            
+            <ul id="site-map" data-bind="foreach: router.routes">
+                    <li data-bind="css: { active: isActive }">
+                        <a data-bind="attr: { href: hash }, text: title"></a>
+                    </li>
+            </ul>
         </div>
 </section>

@@ -17,7 +17,9 @@
     text-transform: uppercase;
 }
 
-.splash .fa-spinner {
+.splash .message img {max-width:100%;}
+
+.splash .fa-cog {
     text-align: center;
     display: inline-block;
     font-size: 5em;

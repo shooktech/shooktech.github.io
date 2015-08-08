@@ -4,11 +4,12 @@ define(function(require) {
 
     var VmBase = require('./vm_base');
 
-    var VmAbout = VmBase.extend({
+    var VmFooter = VmBase.extend({
+    	router: router,
         activate: function () {
             
         }
     });
 
-    return VmAbout;
+    return VmFooter;
 });
