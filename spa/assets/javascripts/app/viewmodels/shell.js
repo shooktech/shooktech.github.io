@@ -13,8 +13,8 @@
                 { route: '', title:'Home', moduleId: 'viewmodels/home', nav: false },
 
                 // Nav
-                { route: 'About', moduleId: 'viewmodels/about', nav: true },
-                { route: 'Careers', moduleId: 'viewmodels/careers', nav:true },
+                { route: 'About', title: 'About', moduleId: 'viewmodels/about', nav: true },
+                { route: 'Careers', title: 'Careers', moduleId: 'viewmodels/careers', nav:true },
             ]).buildNavigationModel();
             
             this.subscribeEvents();
