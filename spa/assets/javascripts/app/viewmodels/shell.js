@@ -27,7 +27,6 @@
         },
 
         navClick: function(d, e) {       
-            alert(e);     
             if (window.innerWidth < 768) {
                 VmShell.collapseNav();
             }
