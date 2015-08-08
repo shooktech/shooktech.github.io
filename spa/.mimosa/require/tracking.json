@@ -15,6 +15,7 @@
       "durandal/app",
       "durandal/viewLocator",
       "durandal/system",
+      "fastclick",
       "bootstrap"
     ],
     "/javascripts/app/viewmodels/about.js": [
@@ -62,7 +63,8 @@
       "durandal": "../vendor/durandal",
       "plugins": "../vendor/durandal/plugins",
       "transitions": "../vendor/durandal/transitions",
-      "uberproto": "../vendor/uberproto/proto"
+      "uberproto": "../vendor/uberproto/proto",
+      "fastclick": "../vendor/fastclick/fastclick"
     }
   },
   "mappings": {
@@ -88,7 +90,8 @@
       "durandal": "../vendor/durandal",
       "plugins": "../vendor/durandal/plugins",
       "transitions": "../vendor/durandal/transitions",
-      "uberproto": "../vendor/uberproto/proto"
+      "uberproto": "../vendor/uberproto/proto",
+      "fastclick": "../vendor/fastclick/fastclick"
     }
   },
   "requireFiles": [

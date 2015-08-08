@@ -9,6 +9,7 @@
     "bootstrap": "3.1.1",
     "font-awesome": "~4.4.0",
     "durandal": "2.1.0",
-    "uberproto": "~1.1.2"
+    "uberproto": "~1.1.2",
+    "fastclick": "~1.0.6"
   }
 }
