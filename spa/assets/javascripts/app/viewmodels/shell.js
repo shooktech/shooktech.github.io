@@ -26,12 +26,13 @@
 
         },
 
-        navClick: function(d, e) {
-            router.navigate(d.hash);
-            
+        navClick: function(d, e) {       
+            alert(e);     
             if (window.innerWidth < 768) {
                 VmShell.collapseNav();
             }
+
+            router.navigate(d.hash);
         },
 
         collapseNav: function() {
