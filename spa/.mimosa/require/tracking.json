@@ -47,6 +47,7 @@
       "require",
       "plugins/router",
       "durandal/app",
+      "knockout",
       "./vm_base"
     ],
     "/javascripts/app/viewmodels/vm_base.js": [

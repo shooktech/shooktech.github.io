@@ -5,5 +5,4 @@
 
 .navbar-header {height:100%;}
 
-.navbar-brand {height:100%;}
-#logo {color: red;}
+#activeTitle {color:red; padding-bottom:15px; padding-top:15px; margin:0 15px; line-height:20px;}
