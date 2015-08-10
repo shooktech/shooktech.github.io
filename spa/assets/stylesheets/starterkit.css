@@ -17,7 +17,12 @@
     text-transform: uppercase;
 }
 
-.splash .message img {max-width:100%;}
+.splash .message img {max-width:30%;}
+
+@media (max-width: 768px) {
+    .splash .message img {max-width:70%;}
+}
+
 
 .splash .fa-cog {
     text-align: center;
