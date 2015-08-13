@@ -55,7 +55,6 @@
                 return element.moduleId;
             }).indexOf(router.activeItem().__moduleId__);
 
-            console.log(router.activeItem().__moduleId__);
             return routes[index].title;
         },
 

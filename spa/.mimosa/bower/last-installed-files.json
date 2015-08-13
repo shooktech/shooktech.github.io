@@ -19,6 +19,7 @@
   "assets\\javascripts\\vendor\\durandal\\viewEngine.js",
   "assets\\javascripts\\vendor\\durandal\\viewLocator.js",
   "assets\\javascripts\\vendor\\fastclick\\fastclick.js",
+  "assets\\javascripts\\vendor\\jquery-touchswipe\\jquery.touchSwipe.js",
   "assets\\javascripts\\vendor\\knockout.js\\knockout.js",
   "assets\\javascripts\\vendor\\requirejs-text\\text.js",
   "assets\\javascripts\\vendor\\requirejs\\require.js",

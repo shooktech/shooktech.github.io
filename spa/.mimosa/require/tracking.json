@@ -6,6 +6,12 @@
           "jquery"
         ],
         "exports": "jQuery"
+      },
+      "touchswipe": {
+        "deps": [
+          "jquery"
+        ],
+        "exports": "jQuery"
       }
     }
   },
@@ -41,6 +47,7 @@
       "durandal/app",
       "knockout",
       "plugins/router",
+      "touchswipe",
       "./vm_base"
     ],
     "/javascripts/app/viewmodels/shell.js": [
@@ -65,7 +72,8 @@
       "plugins": "../vendor/durandal/plugins",
       "transitions": "../vendor/durandal/transitions",
       "uberproto": "../vendor/uberproto/proto",
-      "fastclick": "../vendor/fastclick/fastclick"
+      "fastclick": "../vendor/fastclick/fastclick",
+      "touchswipe": "../vendor/jquery-touchswipe/jquery.touchSwipe"
     }
   },
   "mappings": {
@@ -81,6 +89,12 @@
           "jquery"
         ],
         "exports": "jQuery"
+      },
+      "touchswipe": {
+        "deps": [
+          "jquery"
+        ],
+        "exports": "jQuery"
       }
     },
     "paths": {
@@ -92,7 +106,8 @@
       "plugins": "../vendor/durandal/plugins",
       "transitions": "../vendor/durandal/transitions",
       "uberproto": "../vendor/uberproto/proto",
-      "fastclick": "../vendor/fastclick/fastclick"
+      "fastclick": "../vendor/fastclick/fastclick",
+      "touchswipe": "../vendor/jquery-touchswipe/jquery.touchSwipe"
     }
   },
   "requireFiles": [

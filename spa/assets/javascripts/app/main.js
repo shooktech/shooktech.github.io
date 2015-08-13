@@ -8,10 +8,15 @@ requirejs.config({
         'plugins' : '../vendor/durandal/plugins',
         'transitions' : '../vendor/durandal/transitions',
         'uberproto': '../vendor/uberproto/proto',
-        'fastclick': '../vendor/fastclick/fastclick'
+        'fastclick': '../vendor/fastclick/fastclick',
+        'touchswipe': '../vendor/jquery-touchswipe/jquery.touchSwipe'
     },
     shim: {
         'bootstrap': {
+            deps: ['jquery'],
+            exports: 'jQuery'
+        },
+        'touchswipe': {
             deps: ['jquery'],
             exports: 'jQuery'
         }
@@ -24,7 +29,6 @@ define(function(require) {
         system = require('durandal/system');
 
     var fastclick = require('fastclick');
-
     fastclick.attach(document.body);
 
     //>>excludeStart("build", true);

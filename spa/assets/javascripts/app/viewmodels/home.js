@@ -1,7 +1,9 @@
-﻿define(function(require) {
+define(function(require) {
 	var app = require('durandal/app'),
 		ko = require('knockout'),
 		router = require('plugins/router');
+
+    var swipe = require('touchswipe');
 
 	var VmBase = require('./vm_base');
 
@@ -20,7 +22,31 @@
     	},
 
     	activate: function() {
+        
     	},
+        binding: function() {
+
+        },
+        bindingComplete: function() {
+            var carouselInner = $('.carousel-inner');
+
+            carouselInner.swipe( {
+                swipeLeft: function(event, direction, distance, duration, fingerCount) {
+                    $(this).parent().carousel('prev');
+                },
+                swipeRight: function(event, direction, distance, duration, fingerCount) {
+                    $(this).parent().carousel('next');
+                },
+                threshold: 75
+            });
+            
+        },
+        attached: function() {
+    
+        },
+        compositionComplete: function() {
+        
+        },
 
         
     });
