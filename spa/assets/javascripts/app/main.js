@@ -9,7 +9,8 @@ requirejs.config({
         'transitions' : '../vendor/durandal/transitions',
         'uberproto': '../vendor/uberproto/proto',
         'fastclick': '../vendor/fastclick/fastclick',
-        'touchswipe': '../vendor/jquery-touchswipe/jquery.touchSwipe'
+        'touchswipe': '../vendor/jquery-touchswipe/jquery.touchSwipe',
+        'poly-classlist': '../vendor/polyfill-classlist/index'
     },
     shim: {
         'bootstrap': {
@@ -36,7 +37,8 @@ define(function(require) {
     //>>excludeEnd("build");
 
     require('bootstrap');
-
+    require('poly-classlist');
+    
     app.title = 'Detroit Packing Co.';
 
     app.configurePlugins({

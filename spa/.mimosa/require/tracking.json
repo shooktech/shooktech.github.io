@@ -22,7 +22,8 @@
       "durandal/viewLocator",
       "durandal/system",
       "fastclick",
-      "bootstrap"
+      "bootstrap",
+      "poly-classlist"
     ],
     "/javascripts/app/viewmodels/about.js": [
       "require",
@@ -73,7 +74,8 @@
       "transitions": "../vendor/durandal/transitions",
       "uberproto": "../vendor/uberproto/proto",
       "fastclick": "../vendor/fastclick/fastclick",
-      "touchswipe": "../vendor/jquery-touchswipe/jquery.touchSwipe"
+      "touchswipe": "../vendor/jquery-touchswipe/jquery.touchSwipe",
+      "poly-classlist": "../vendor/polyfill-classlist/index"
     }
   },
   "mappings": {
@@ -107,7 +109,8 @@
       "transitions": "../vendor/durandal/transitions",
       "uberproto": "../vendor/uberproto/proto",
       "fastclick": "../vendor/fastclick/fastclick",
-      "touchswipe": "../vendor/jquery-touchswipe/jquery.touchSwipe"
+      "touchswipe": "../vendor/jquery-touchswipe/jquery.touchSwipe",
+      "poly-classlist": "../vendor/polyfill-classlist/index"
     }
   },
   "requireFiles": [

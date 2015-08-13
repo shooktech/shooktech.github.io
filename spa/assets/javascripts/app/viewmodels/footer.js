@@ -11,5 +11,5 @@ define(function(require) {
         }
     });
 
-    return VmFooter;
+    return VmFooter.create();
 });

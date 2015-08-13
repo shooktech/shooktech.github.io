@@ -42,12 +42,11 @@
                 return 0;
             }
 
-            var navToggle = $('#navbar-toggle');
-
-            if (!navToggle.hasClass('collapsed') ) {
+            var navToggle = document.getElementById('navbar-toggle');
+            
+            if (!navToggle.classList.contains('collapsed')) {
                 navToggle.click();
             }
-            
         },
 
         getActiveRouteTitle: function() {

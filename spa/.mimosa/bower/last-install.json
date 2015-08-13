@@ -11,6 +11,7 @@
     "durandal": "2.1.0",
     "uberproto": "~1.1.2",
     "fastclick": "~1.0.6",
-    "jquery-touchswipe": "~1.6.9"
+    "jquery-touchswipe": "~1.6.9",
+    "polyfill-classlist": "https://raw.githubusercontent.com/remy/polyfills/master/classList.js"
   }
 }

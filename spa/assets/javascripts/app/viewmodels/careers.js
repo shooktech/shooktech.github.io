@@ -10,5 +10,5 @@ define(function(require) {
         }
     });
 
-    return VmCareers;
+    return VmCareers.create();
 });
