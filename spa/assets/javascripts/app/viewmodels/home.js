@@ -28,6 +28,7 @@ define(function(require) {
 
         },
         bindingComplete: function() {
+            /*
             var carouselInner = $('.carousel-inner');
 
             carouselInner.swipe( {
@@ -38,7 +39,7 @@ define(function(require) {
                     $(this).parent().carousel('next');
                 },
                 threshold: 75
-            });
+            }); */
             
         },
         attached: function() {
