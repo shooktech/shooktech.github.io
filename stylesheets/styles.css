@@ -26,7 +26,7 @@
  * Durandal 2.1.0 Copyright (c) 2012 Blue Spire Consulting, Inc. All Rights Reserved.
  * Available via the MIT license.
  * see: http://durandaljs.com or https://github.com/BlueSpire/Durandal for details
- */.splash{text-align:center;margin:10% 0 0}.splash .message{font-size:5em;line-height:1.5em;-webkit-text-shadow:rgba(0,0,0,.5) 0 0 15px;text-shadow:rgba(0,0,0,.5) 0 0 15px;text-transform:uppercase}.splash .message img{max-width:30%}@media (max-width:768px){.splash .message img{max-width:70%}}.splash .fa-cog{text-align:center;display:inline-block;font-size:5em;margin-top:50px}.page-host{position:absolute;top:50px;bottom:0;left:0;right:0;overflow-x:hidden;overflow-y:auto}section{margin:0}.navbar-nav li.loader{margin:12px 6px 0;visibility:hidden}.navbar-nav li.loader.active{visibility:visible}.pictureDetail{max-width:425px}.body-text{font-family:Open Sans}
+ */.splash{text-align:center;margin:10% 0 0}.splash .message{font-size:5em;line-height:1.5em;-webkit-text-shadow:rgba(0,0,0,.5) 0 0 15px;text-shadow:rgba(0,0,0,.5) 0 0 15px;text-transform:uppercase}.splash .message img{max-width:30%}@media (max-width:768px){.splash .message img{max-width:70%}}.splash .fa-cog{text-align:center;display:inline-block;font-size:5em;margin-top:50px}.page-host{position:relative;top:50px;overflow-x:hidden;overflow-y:auto}section{margin:0}.navbar-nav li.loader{margin:12px 6px 0;visibility:hidden}.navbar-nav li.loader.active{visibility:visible}.pictureDetail{max-width:425px}.body-text{font-family:Open Sans}
 
 
 #banner-statement *{font-weight:900;color:#fff}#banner-statement{background-color:red}#footer{background-color:red;margin:0}#footer *{color:#fff}

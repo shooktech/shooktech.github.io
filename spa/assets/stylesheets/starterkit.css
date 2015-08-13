@@ -32,11 +32,8 @@
 }
 
 .page-host {
-    position: absolute;
+    position: relative;
     top:50px;
-    bottom:0;
-    left:0;
-    right:0;
     overflow-x: hidden;
     overflow-y: auto;
 }
