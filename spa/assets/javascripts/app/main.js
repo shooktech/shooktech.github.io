@@ -10,6 +10,7 @@ requirejs.config({
         'uberproto': '../vendor/uberproto/proto',
         'fastclick': '../vendor/fastclick/fastclick',
         'touchswipe': '../vendor/jquery-touchswipe/jquery.touchSwipe',
+        'slick': '../vendor/slick-carousel/slick.min',
         'poly-classlist': '../vendor/polyfill-classlist/index'
     },
     shim: {
@@ -18,6 +19,10 @@ requirejs.config({
             exports: 'jQuery'
         },
         'touchswipe': {
+            deps: ['jquery'],
+            exports: 'jQuery'
+        },
+        'slick': {
             deps: ['jquery'],
             exports: 'jQuery'
         }
@@ -38,7 +43,7 @@ define(function(require) {
 
     require('bootstrap');
     require('poly-classlist');
-    
+
     app.title = 'Detroit Packing Co.';
 
     app.configurePlugins({

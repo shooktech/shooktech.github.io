@@ -12,6 +12,12 @@
           "jquery"
         ],
         "exports": "jQuery"
+      },
+      "slick": {
+        "deps": [
+          "jquery"
+        ],
+        "exports": "jQuery"
       }
     }
   },
@@ -48,7 +54,7 @@
       "durandal/app",
       "knockout",
       "plugins/router",
-      "touchswipe",
+      "slick",
       "./vm_base"
     ],
     "/javascripts/app/viewmodels/shell.js": [
@@ -75,6 +81,7 @@
       "uberproto": "../vendor/uberproto/proto",
       "fastclick": "../vendor/fastclick/fastclick",
       "touchswipe": "../vendor/jquery-touchswipe/jquery.touchSwipe",
+      "slick": "../vendor/slick-carousel/slick.min",
       "poly-classlist": "../vendor/polyfill-classlist/index"
     }
   },
@@ -97,6 +104,12 @@
           "jquery"
         ],
         "exports": "jQuery"
+      },
+      "slick": {
+        "deps": [
+          "jquery"
+        ],
+        "exports": "jQuery"
       }
     },
     "paths": {
@@ -110,6 +123,7 @@
       "uberproto": "../vendor/uberproto/proto",
       "fastclick": "../vendor/fastclick/fastclick",
       "touchswipe": "../vendor/jquery-touchswipe/jquery.touchSwipe",
+      "slick": "../vendor/slick-carousel/slick.min",
       "poly-classlist": "../vendor/polyfill-classlist/index"
     }
   },

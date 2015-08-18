@@ -8,6 +8,10 @@ define(function(require) {
     	router: router,
         activate: function () {
             
+        },
+
+        navigateHome: function() {
+        	this.router.navigate('');
         }
     });
 

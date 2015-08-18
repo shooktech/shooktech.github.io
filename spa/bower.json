@@ -12,6 +12,7 @@
     "uberproto": "~1.1.2",
     "fastclick": "~1.0.6",
     "jquery-touchswipe": "~1.6.9",
-    "polyfill-classlist": "https://raw.githubusercontent.com/remy/polyfills/master/classList.js"
+    "polyfill-classlist": "https://raw.githubusercontent.com/remy/polyfills/master/classList.js",
+    "slick-carousel": "~1.5.8"
   }
 }

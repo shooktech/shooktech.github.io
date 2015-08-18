@@ -1,9 +1,12 @@
+#footer {padding: 20px 0;}
 
-
+@media (max-width: 991px) {
+	#footer a {padding-bottom:1rem; padding-top:1rem; margin-bottom:2rem; margin-top:2rem;}
+}
 @media (max-width: 767px) {
 	#footer #contact * {margin-bottom: 1.5rem;}
-	#footer #site-map {margin-top:2rem;}
-	#footer a {font-size: 2rem; padding-bottom:1rem;}
+	#footer #site-map {margin-top:4rem;}
+	#footer a {font-size: 2rem; padding-top:1rem; padding-bottom:1rem;}
 
 	#footer img.logo {max-width: 75%; margin-left:12.5%; margin-bottom:2rem;}
 }

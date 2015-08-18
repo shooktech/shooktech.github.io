@@ -53,6 +53,8 @@ exports.config =
           'vendor/bootstrap/bootstrap.min.css'
           'vendor/font-awesome/font-awesome.css'
           'vendor/durandal/durandal.css'
+          'vendor/slick-carousel/slick-theme.css'
+          'vendor/slick-carousel/slick.css'
           'starterkit.css'
           'home.css'
           'shell.css'

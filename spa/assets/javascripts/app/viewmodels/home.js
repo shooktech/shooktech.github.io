@@ -3,7 +3,7 @@ define(function(require) {
 		ko = require('knockout'),
 		router = require('plugins/router');
 
-    var swipe = require('touchswipe');
+    var slick = require('slick');
 
 	var VmBase = require('./vm_base');
 
@@ -11,14 +11,20 @@ define(function(require) {
     	init: function() {
     		this.carouselItems = [
     			{
-    			img: "http://johnrichardthompson.com/images/photographs/mackinac.jpg",
-    			caption: "Caption city"
+                img: "./images/square-1.jpg",
+                imgSmall: "./images/redwoodcity.jpg",
+    			header: "Speedy Service",
+                description: "With your favorite products"
     			},
     			{
-    			img: "http://johnrichardthompson.com/images/photographs/camcorder.jpg",
-    			caption: "Fuck City"
+                img: "./images/square-2.jpg",
+                imgSmall: "./images/red.png",
+    			header: "Friendliness",
+                description: "From friendly people"
     			}
     		];
+
+            this.width = ko.observable(window.innerWidth);
     	},
 
     	activate: function() {
@@ -28,24 +34,18 @@ define(function(require) {
 
         },
         bindingComplete: function() {
-            var carouselInner = $('.carousel-inner');
-
-            carouselInner.swipe( {
-                swipeLeft: function(event, direction, distance, duration, fingerCount) {
-                    $(this).parent().carousel('prev');
-                },
-                swipeRight: function(event, direction, distance, duration, fingerCount) {
-                    $(this).parent().carousel('next');
-                },
-                threshold: 75
-            });
-            
+           
         },
         attached: function() {
-    
+         var carousel = $('.carousel');
+            carousel.slick({
+                autoplay: true,
+                dots: true
+            });
         },
         compositionComplete: function() {
-        
+            
+
         },
 
         

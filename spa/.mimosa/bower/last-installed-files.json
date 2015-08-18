@@ -24,8 +24,11 @@
   "assets\\javascripts\\vendor\\polyfill-classlist\\index.js",
   "assets\\javascripts\\vendor\\requirejs-text\\text.js",
   "assets\\javascripts\\vendor\\requirejs\\require.js",
+  "assets\\javascripts\\vendor\\slick-carousel\\slick.min.js",
   "assets\\javascripts\\vendor\\uberproto\\proto.js",
   "assets\\stylesheets\\vendor\\durandal\\durandal.css",
   "assets\\stylesheets\\vendor\\font-awesome\\font-awesome.less",
-  "assets\\stylesheets\\vendor\\font-awesome\\font-awesome.scss"
+  "assets\\stylesheets\\vendor\\font-awesome\\font-awesome.scss",
+  "assets\\stylesheets\\vendor\\slick-carousel\\slick-theme.css",
+  "assets\\stylesheets\\vendor\\slick-carousel\\slick.css"
 ]
