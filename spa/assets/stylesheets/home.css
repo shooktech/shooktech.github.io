@@ -11,7 +11,7 @@
 	#home-banner {background: url('../../images/city.jpg'); overflow:hidden; height:400px;}
 }
 @media (min-width: 768px) {
-	#home-banner {background: url('../../../images/city.jpg'); overflow:hidden; height:550px;}
+	#home-banner {background: url('../images/city.jpg'); overflow:hidden; height:550px;}
 }
 
 #banner-statement * {font-weight:900; color:white;}
