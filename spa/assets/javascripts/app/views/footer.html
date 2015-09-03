@@ -21,10 +21,15 @@
                     <a href="https://squareup.com/market/detroit-packing-co">
                         Square
                     </a>
-
+                    <br>
+                    <br>
+                    <a href="#policies">
+                        Warrany Information/Privacy Policy
+                    </a>
+                    <br>
                 </div>
                 
-                <ul class="col-sm-5 col-md-4" id="site-map" data-bind="foreach: router.routes">
+                <ul class="col-sm-5 col-md-4" id="site-map" data-bind="foreach: router.navigationModel">
                     <li data-bind="css: { active: isActive }">
                         <a data-bind="attr: { href: hash }, text: title"></a>
                     </li>

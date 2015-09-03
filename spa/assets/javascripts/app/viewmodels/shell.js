@@ -7,12 +7,15 @@
 
     var VmShell = VmBase.extend({
         router: router,
+
+        isMobile: ko.observable(window.innerWidth < 768),
     
         activate: function () {
             this.activeItemTitle = ko.observable('');
 
             router.map([
                 // Non Nav
+                { route: 'Policies', title:'Policies', moduleId: 'viewmodels/policies', nav: false},
 
                 // Nav
                 { route: '', title:'Home', moduleId: 'viewmodels/home', nav: true },

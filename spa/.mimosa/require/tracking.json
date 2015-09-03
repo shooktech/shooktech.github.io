@@ -57,6 +57,12 @@
       "slick",
       "./vm_base"
     ],
+    "/javascripts/app/viewmodels/policies.js": [
+      "require",
+      "plugins/router",
+      "durandal/app",
+      "./vm_base"
+    ],
     "/javascripts/app/viewmodels/shell.js": [
       "require",
       "plugins/router",

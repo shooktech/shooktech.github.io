@@ -6,7 +6,7 @@
 			</div>
 
 			<div class="col-sm-8">
-				<h2 id="redwoodcity">
+				<h2 id="">
 					<span style="color:red;">RED</span>WOOD CITY
 				</h2>
 			</div>
@@ -41,34 +41,38 @@
 
 	<div class="row banner-jobs">
 		<div class="col-lg-8 col-lg-offset-2">
-			<div class="col-sm-4">
-				<h5>We love</h5>
+			<div class="col-sm-12">
+				<h3>We love</h3>
 			</div>
-			<div class="col-sm-8">
-				<ul>
-					<li>Culture</li>
-					<li>Craft Beer</li>
-					<li>Ping Pong</li>
-					<li>Foosball</li>
-					<li>Cats</li>
-					<li>Marketing Savvy</li>
-					<li>Innovation</li>
-					<li>C, C++, or Java</li>
-					<li>Adobe Creative Suite</li>
-				</ul>
+			<div class="col-sm-12">
+				<!-- ko foreach: loves -->
+					<div class="col-sm-6 col-md-4 love">
+						<p data-bind='text: love'></p>
+					</div>
+				<!-- /ko -->
 			</div>
 		</div>
 	</div>
 
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2">
-			<div class="col-sm-4">
-				<h5>Currently looking for:</h5>
+			<div class="col-sm-12">
+				<h3>Currently looking for:</h3>
 			</div>
 
-			<div class="col-sm-8">
+			<div class="col-sm-12">
 				<h5>Sorry. We currently have no openings. Check again soon!</h5>
 			</div>
+		</div>
+	</div>
+
+	<div class="row careers-notice">
+		<div class="col-lg-8 col-lg-offset-2">
+			<div c;ass="col-xs-12">
+			<p class="col-xs-12">
+			Detroit Packing Co. is committed to the principles of equal opportunity, non-discrimination and affirmative action. available to all without regard to race, color, gender, religion, national origin, political persuasion, sexual orientation, marital status, disability, height, weight, veteran status, age or familial status. The DPC is an Affirmative Action, Equal Opportunity Employer.
+			</p>
+			<div>
 		</div>
 	</div>
 </section>
