@@ -1,5 +1,5 @@
 ﻿<div class="container-fluid">
-    <nav class="navbar navbar-default" id="main-nav" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top" id="main-nav" role="navigation">
         <div id="thenavbar" class="col-lg-8 col-lg-offset-2">
             <div class="navbar-header">
                 <button type="button" id= "navbar-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -14,8 +14,8 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav" data-bind="foreach: router.navigationModel">
                     <li data-bind="css: { active: isActive, needsClick: $root.isMobile }, click:$root.navClick">
-                        <a class="mobile-nav-links"
-                        data-bind="css: {needsClick: $root.isMobile}, attr: { href: hash }, text: title, click: $root.navClick"></a>
+                        <a
+                        data-bind="css: {needsClick: $root.isMobile, 'mobile-nav-links': $root.isMobile}, attr: { href: hash }, text: title, click: $root.navClick"></a>
                     </li>
                 </ul>
 
