@@ -1,7 +1,7 @@
 
 
 @media (max-width: 767px) {
-	#home-banner {background: url('../../images/City.jpg'); overflow:hidden; height:400px;}
+	#home-banner {background: url('../../images/City_xs.png'); overflow:hidden; height:290px;}
 }
 @media (min-width: 768px) {
 	#home-banner {background: url('../../images/City.jpg'); overflow:hidden; height:550px;}
