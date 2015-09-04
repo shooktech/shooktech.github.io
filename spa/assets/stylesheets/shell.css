@@ -1,10 +1,10 @@
-#main-nav {background-color: rgba(255,255,255, 1); position:fixed; z-index: 99999; left:0; right:0;}
+#main-nav {background-color: rgba(255,255,255, 1);}
 #main-nav * {color: #0f0f0f;}
 
 #main-nav .navbar-collapse {padding-left:0; padding-right:0;}
 
 #main-nav a:hover { }
-
+.mobile-nav-links {margin-left:5px;}
 .navbar-header {height:100%;}
 
 #activeTitle {color:red; padding-bottom:15px; padding-top:15px; margin:0 0 0 15px; line-height:20px;}
