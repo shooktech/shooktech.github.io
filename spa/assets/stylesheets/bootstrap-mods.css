@@ -1,7 +1,6 @@
-.container-fluid {max-width:1680px; margin: 0 auto;}
+.container-fluid {max-width:1900px; margin: 0 auto;}
 .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
-    margin-left: 0;
-    margin-right: 0;
+    
 }
 
 .btn-success {

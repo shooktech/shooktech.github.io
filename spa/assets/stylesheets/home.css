@@ -1,11 +1,4 @@
-#home-carousel .1 {
-	color:green;
-	background: url('../images/square-1.jpg');
-}
 
-#home-carousel .2 {
-	background: url('../../images/square-2.jpg');
-}
 
 @media (max-width: 767px) {
 	#home-banner {background: url('../../images/City.jpg'); overflow:hidden; height:400px;}
