@@ -38,13 +38,13 @@
 @media (max-width:767px){#home-banner{background:url(../../images/City_xs.png);overflow:hidden;height:290px}}@media (min-width:768px){#home-banner{background:url(../../images/City.jpg);overflow:hidden;height:550px}}#banner-statement *{font-weight:900;color:#fff}.body-text{line-height:2.5rem}#banner-statement{background-color:red}#footer{background-color:red;margin:0}#footer *{color:#fff}
 
 
-#main-nav{background-color:rgba(255,255,255,1)}#main-nav *{color:#0f0f0f}#main-nav .navbar-collapse{padding-left:0;padding-right:0}.mobile-nav-links{margin-left:5px}.navbar-header{height:100%}#activeTitle{color:red;padding-bottom:15px;padding-top:15px;margin:0 0 0 15px;line-height:20px}.store-li{padding:0;margin:0}ul.navbar-right .store-link{padding:0;margin:0 0 0 10px}.navbar-collapse .navbar-nav.navbar-right:last-child{margin-right:0}.store-icon{height:50px;margin-bottom:0;margin-top:0;padding-top:0;padding-bottom:0}
+#main-nav{background-color:rgba(255,255,255,1)}#main-nav *{color:#0f0f0f}#nav-container{margin-left:auto;margin-right:auto;padding-left:15px;padding-right:15px}@media (max-width:767px){#nav-container{width:320px}}@media (min-width:768px) and (max-width:){#nav-container{width:100%}}#main-nav .navbar-collapse{padding-left:0;padding-right:0}.mobile-nav-links{margin-left:5px}.navbar-header{height:100%}#activeTitle{color:red;padding-bottom:15px;padding-top:15px;margin:0 0 0 15px;line-height:20px}.store-li{padding:0;margin:0}ul.navbar-right .store-link{padding:0;margin:0 0 0 10px}.navbar-collapse .navbar-nav.navbar-right:last-child{margin-right:0}.store-icon{height:50px;margin-bottom:0;margin-top:0;padding-top:0;padding-bottom:0}
 
 
 #about #message{margin-bottom:3rem}#about #message span{font-size:1rem}.statement{line-height:3rem;font-size:2rem;font-family:Open Sans}
 
 
-.container-fluid{max-width:1500px;margin:0 auto}.row{margin:0}h1,h2,h3,h4,h5,h6{font-weight:700}.header-primary{color:red}
+.container-fluid{max-width:1680px;margin:0 auto}.row{margin:0}h1,h2,h3,h4,h5,h6{font-weight:700}.header-primary{color:red}
 
 
 .banner-jobs{background-color:red;color:#fff}.banner-jobs ul{list-style:none;padding:0;margin-top:1rem}.banner-jobs ul li{margin-left:0}#redwoodcity{letter-spacing:1rem}.love *{text-align:center}.careers-notice{margin-top:30px;padding-top:30px}
