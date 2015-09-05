@@ -57,5 +57,5 @@ section {
 
 .body-text {font-family: Open Sans;}
 
-.row.fine-print {margin-top: 50px}
+.row.fine-print {margin-top: 50px; margin-bottom:0;}
 .fine-print * {font-size:12px;}
