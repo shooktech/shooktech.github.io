@@ -56,3 +56,6 @@ section {
 }
 
 .body-text {font-family: Open Sans;}
+
+.row.fine-print {margin-top: 50px}
+.fine-print * {font-size:12px;}

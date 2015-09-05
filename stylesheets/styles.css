@@ -32,7 +32,7 @@
  * Durandal 2.1.0 Copyright (c) 2012 Blue Spire Consulting, Inc. All Rights Reserved.
  * Available via the MIT license.
  * see: http://durandaljs.com or https://github.com/BlueSpire/Durandal for details
- */.splash{text-align:center;margin:10% 0 0}.splash .message{font-size:5em;line-height:1.5em;-webkit-text-shadow:rgba(0,0,0,.5) 0 0 15px;text-shadow:rgba(0,0,0,.5) 0 0 15px;text-transform:uppercase}.splash .message img{max-width:30%}@media (max-width:768px){.splash .message img{max-width:70%}}.splash .fa-cog{text-align:center;display:inline-block;font-size:5em;margin-top:50px}.page-host{position:relative;top:50px;overflow-x:hidden;overflow-y:hidden}section{margin:0}.navbar-nav li.loader{margin:12px 6px 0;visibility:hidden}.navbar-nav li.loader.active{visibility:visible}.pictureDetail{max-width:425px}.body-text{font-family:Open Sans}
+ */.splash{text-align:center;margin:10% 0 0}.splash .message{font-size:5em;line-height:1.5em;-webkit-text-shadow:rgba(0,0,0,.5) 0 0 15px;text-shadow:rgba(0,0,0,.5) 0 0 15px;text-transform:uppercase}.splash .message img{max-width:30%}@media (max-width:768px){.splash .message img{max-width:70%}}.splash .fa-cog{text-align:center;display:inline-block;font-size:5em;margin-top:50px}.page-host{position:relative;top:50px;overflow-x:hidden;overflow-y:hidden}section{margin:0}.navbar-nav li.loader{margin:12px 6px 0;visibility:hidden}.navbar-nav li.loader.active{visibility:visible}.pictureDetail{max-width:425px}.body-text{font-family:Open Sans}.row.fine-print{margin-top:50px}.fine-print *{font-size:12px}
 
 
 @media (max-width:767px){#home-banner{background:url(../../images/City_xs.png);overflow:hidden;height:290px}}@media (min-width:768px){#home-banner{background:url(../../images/City.jpg);overflow:hidden;height:550px}}#banner-statement *{font-weight:900;color:#fff}.body-text{line-height:2.5rem}#banner-statement{background-color:red}#footer{background-color:red;margin:0}#footer *{color:#fff}
@@ -50,7 +50,7 @@
 .banner-jobs{background-color:red;color:#fff}.banner-jobs ul{list-style:none;padding:0;margin-top:1rem}.banner-jobs ul li{margin-left:0}#redwoodcity{letter-spacing:1rem}.love *{text-align:center}.careers-notice{margin-top:30px;padding-top:30px}
 
 
-#footer{padding:20px 0;margin-top:50px}@media (max-width:991px){#footer a{padding-bottom:1rem;padding-top:1rem;margin-bottom:2rem;margin-top:2rem}}@media (max-width:767px){#footer #contact *{margin-bottom:1.5rem}#footer #site-map{margin-top:4rem}#footer a{font-size:2rem;padding-top:1rem;padding-bottom:1rem}#footer img.logo{max-width:75%;margin-left:12.5%;margin-bottom:2rem}}#footer #site-map{list-style:none}#footer #site-map li{display:inline-block;margin-right:2rem}
+#footer{padding:20px 0;margin-top:20px}@media (max-width:991px){#footer a{padding-bottom:1rem;padding-top:1rem;margin-bottom:2rem;margin-top:2rem}}@media (max-width:767px){#footer #contact *{margin-bottom:1.5rem}#footer #site-map{margin-top:4rem}#footer a{font-size:2rem;padding-top:1rem;padding-bottom:1rem}#footer img.logo{max-width:75%;margin-left:12.5%;margin-bottom:2rem}}#footer #site-map{list-style:none}#footer #site-map li{display:inline-block;margin-right:2rem}
 
 
 @-ms-viewport{width:device-width}@-o-viewport{width:device-width}@viewport{width:device-width}
